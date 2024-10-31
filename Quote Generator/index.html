@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome CDN Link For Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+
+<main class="wrapper" role="main">
+    <header>Quote Generator</header>
+    <section class="content" aria-live="polite">
+        <div class="quote-area">
+            <i class="fas fa-quote-left" aria-hidden="true"></i>
+            <p class="quote">"Stand guard at the door of your own mind"</p>
+            <i class="fas fa-quote-right" aria-hidden="true"></i>
+        </div>
+        <div class="author">
+            <span>—</span>
+            <span class="name">Jim Rohn</span>
+        </div>
+    </section>
+    <section class="buttons" aria-label="quote actions">
+        <div class="features">
+            <ul>
+                <li class="sound" title="Hear the quote"><i class="fas fa-volume-up"></i></li>
+                <li class="copy" title="Copy the quote"><i class="fas fa-copy"></i></li>
+                <!-- X Button with custom image icon -->
+                <li class="x" title="Share on X">
+                    <img src="./images/x.png" alt="Share on X" class="x-icon">
+                </li>
+            </ul>
+            <button aria-label="New Quote">New Quote</button>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
